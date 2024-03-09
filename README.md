@@ -48,8 +48,11 @@
     (GUI interacts with Business Logic which interacts with Database)
 
     GUI            : Aldrin Fernandez
+    main.py
     Business Logic : Nazanin Tabrizizadeh
+    user.py
     Database       : Mansoor Zafar
+    database.py
     
     Database Hosted Online with: Free MySQL Hosting
     https://www.freemysqlhosting.net/
