@@ -49,8 +49,10 @@
 
     GUI            : Aldrin Fernandez
     main.py
+    
     Business Logic : Nazanin Tabrizizadeh
     user.py
+    
     Database       : Mansoor Zafar
     database.py
     
