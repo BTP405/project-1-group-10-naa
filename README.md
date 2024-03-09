@@ -1,34 +1,60 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/545oUMxH)
 
-### Please use the following template to add a ReadMe for your repo.
+# Parking Application
 
-## 1. Project Title and Description
-    - Title: Provide a clear and concise title for your project.
-    - Description: Give a brief overview of what your project does and its purpose.
-## 2. Installation
-    - Dependencies: List any dependencies or prerequisites required to use your project.
-    - Installation Instructions: Provide step-by-step instructions on how to install and set up your project.
-## 3. Usage
-    - Examples: Include examples or code snippets to demonstrate how to use your project.
-    - Configuration: Explain any configuration options or settings users might need to know about.
-## 4. Features
-    - List of Features: Outline the main features and functionalities of your project.
-## 5. Contributing
-    - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
-    - Code Style: If applicable, provide guidelines or references to your code style.
-## 6. Credits
-    - Authors: List the authors or contributors of the project.
-    - Acknowledgments: Mention any individuals or resources that helped inspire or support your project.
-## 7. License
-    - License Information: Specify the license under which your project is distributed.
-## 8. Additional Sections (Optional)
-    - FAQ: Include frequently asked questions and their answers.
-    - Troubleshooting: Provide solutions to common issues or troubleshooting tips.
-    - Roadmap: Outline the future development plans for your project.
-    - Changelog: Document changes and updates to your project over time.
+## Description
 
-## Markdown Formatting Tips
-  - Use headings (#, ##, ###, etc.) to structure your document.
-  - Utilize lists (- or 1.) for easy-to-read information.
-  - Include links to relevant resources or documentation.
-  - Add code blocks using triple backticks (```) for code snippets.
-  - Use images or diagrams to enhance understanding where applicable.
+    Our application allows for a user to reserve a parking space from either the "inner" or "outer" slots. 
+    Users can login, Register, reserve a parking slot, leave feedback and view their reservations. 
+    
+## Installation
+
+    - pip install mysql-connector-python
+    - pip install tk
+         
+## Usage
+
+    - To run the application do: python main.py 
+
+    Screenshots:
+        Starting-Screen:
+![image](https://github.com/BTP405/project-1-group-10-naa/assets/158625229/3b9bed1d-c1f9-44c7-b56c-460dca2ffc9e)
+       
+        Login
+![image](https://github.com/BTP405/project-1-group-10-naa/assets/158625229/16e47a21-39f8-4ed3-8b06-5e335669d894)
+        
+        Main Menu:
+![image](https://github.com/BTP405/project-1-group-10-naa/assets/158625229/675de6c3-a27e-402b-b92a-7d4857ece818)
+        
+        Showing Parking Spaces
+![image](https://github.com/BTP405/project-1-group-10-naa/assets/158625229/5ffe3d1a-4fa3-425c-8a98-1e7655c6ef08)
+        
+        Reserving
+![image](https://github.com/BTP405/project-1-group-10-naa/assets/158625229/51f52d3e-c9f3-4b37-b8f7-d2eabef73e7b)
+
+
+## Features
+    - Login
+    - Register
+    - Reserving Parking
+    - Seeing Free Parking Spaces
+    - Viewing Your Reservations
+    - Viewing inner and outer parking spaces
+    - Leaving Feedback
+    - Logging out
+    
+## Contributing & Credits
+    - To contribute to the application, follow the Layered Architecture style 
+    (GUI interacts with Business Logic which interacts with Database)
+
+    GUI            : Aldrin Fernandez
+    main.py
+    
+    Business Logic : Nazanin Tabrizizadeh
+    user.py
+    
+    Database       : Mansoor Zafar
+    database.py
+    
+    Database Hosted Online with: Free MySQL Hosting
+    https://www.freemysqlhosting.net/
